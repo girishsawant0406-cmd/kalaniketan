@@ -2,6 +2,19 @@ body{
     background-color: black;
     color: goldenrod;
 }
+
+.navbar-brand{
+    font-size: 1.8rem;
+}
+nav a{
+    color:goldenrod ;
+    font-family: 'Playfair Display',serif;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover{
+    color: white;
+}
 .first{
     background-image:url(./images/banner.png);
     background-size: cover;
