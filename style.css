@@ -5,13 +5,21 @@ body{
 
 .navbar-brand{
     font-size: 1.8rem;
+    color:goldenrod;
+    font-family:'Playfair Display',serif;
 }
-nav a{
-    color:goldenrod ;
+.nav a{
+   color:#eeb712;
     font-family: 'Playfair Display',serif;
     font-size: 1.5rem;
 }
-
+li a{
+    color:#eeb712 !important;
+    font-family:'Playfair Display',serif;
+}
+.navbar-nav .nav-link{
+    font-size:23px;
+}
 .navbar a:hover{
     color: white;
 }
@@ -21,6 +29,7 @@ nav a{
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+
 }
 
 h1{
@@ -64,3 +73,15 @@ h4{
     font-family: 'Playfair Display',serif;
     font-size: 32px;
 }
+
+.card{
+    border:1px solid rgb(179, 137, 10);
+}
+
+.card-title{
+    color: rgb(179, 137, 10);
+}
+.card-body{
+    color:white;
+}
+
