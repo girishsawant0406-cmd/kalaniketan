@@ -8,6 +8,8 @@
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="crossorigin=""/>
     </head>
     <body>
             <nav class="navbar navbar-expand-lg navbar-dark bg-body-dark">
@@ -85,62 +87,62 @@
             </div>
         </section>  
         <section class="third py-5">
-            <div class="container3">
+            <div class="container-fluid">
                 <div class="row justify-content-center">
                     <h2 class="text-center text-gold mb-5 fw-bold">
                         OUR COURSES
                     </h2>
                 </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="card card-border card-border-success border-success-3" style="width: 18rem;">
-                                <img src="./images/img1.png" class="card-img-top" alt="First image">
-                                <div class="card-body">
-                                    <h4 class="card-title">Beginner Level</h4>
-                                    <p class="card-text">This is the First level of Bharatanatyam and starting point where
-                                    you will learn adavus and basic theory
-                                    </p>
-                                    <a href="..." class="btn btn-center btn-outline-warning mt-4">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card card-border card-border-success border-success-3" style="width: 18rem;">
-                                <img src="./images/img2.png" class="card-img-top" alt="First image">
-                                <div class="card-body">
-                                    <h4 class="card-title">Intermediate Level</h4>
-                                    <p class="card-text">This is the Second level of Bharatanatyam and starting point where
-                                    you will l
-                                    </p>
-                                    <a href="..." class="btn btn-center btn-outline-warning mt-4">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card card-border card-border-success border-success-3" style="width: 18rem;">
-                                <img src="./images/img3.png" class="card-img-top" alt="First image">
-                                <div class="card-body">
-                                    <h4 class="card-title">Advanced Level</h4>
-                                    <p class="card-text">This is the Second level of Bharatanatyam and starting point where
-                                    you will l
-                                    </p>
-                                    <a href="..." class="btn btn-center btn-outline-warning mt-4">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card card-border card-border-success border-success-3" style="width: 18rem;">
-                                <img src="./images/img4.png" class="card-img-top" alt="First image">
-                                <div class="card-body">
-                                    <h4 class="card-title">Online Classes</h4>
-                                    <p class="card-text">This is the Second level of Bharatanatyam and starting point where
-                                    you will l
-                                    </p>
-                                    <a href="..." class="btn btn-center btn-outline-warning mt-4">Learn More</a>
-                                </div>
+                <div class="row g-3 g-md-4 mb-3 mb-md-4">
+                    <div class="col-lg-3 col-md-6 col-sm-10 col-11 mb-3 mb-md-4 ">
+                        <div class="card card mx-auto card-border card-border-success border-success-3" style="width: 18rem;">
+                            <img src="./images/img1.png" class="card-img-top" alt="First image">
+                            <div class="card-body">
+                                <h4 class="card-title">Beginner Level</h4>
+                                <p class="card-text">This is the First level of Bharatanatyam and starting point where
+                                you will learn adavus and basic theory
+                                </p>
+                                <a href="..." class="btn btn-center btn-outline-warning mt-4">Learn More</a>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-6 col-sm-10 col-11 mb-3 mb-md-4">
+                        <div class="card card mx-auto card-border card-border-success border-success-3" style="width: 18rem;">
+                            <img src="./images/img2.png" class="card-img-top" alt="First image">
+                            <div class="card-body">
+                                <h4 class="card-title">Intermediate Level</h4>
+                                <p class="card-text">This is the Second level of Bharatanatyam and starting point where
+                                you will l
+                                </p>
+                                <a href="..." class="btn btn-center btn-outline-warning mt-4">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-10 col-11 mb-3 mb-md-4">
+                        <div class="card card mx-auto card-border card-border-success border-success-3" style="width: 18rem;">
+                            <img src="./images/img3.png" class="card-img-top" alt="First image">
+                            <div class="card-body">
+                                <h4 class="card-title">Advanced Level</h4>
+                                <p class="card-text">This is the Second level of Bharatanatyam and starting point where
+                                you will l
+                                </p>
+                                <a href="..." class="btn btn-center btn-outline-warning mt-4">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-10 col-11 mb-3 mb-md-4">
+                        <div class="card car mx-auto card-border card-border-success border-success-3" style="width: 18rem;">
+                            <img src="./images/img4.png" class="card-img-top" alt="First image">
+                            <div class="card-body">
+                                <h4 class="card-title">Online Classes</h4>
+                                <p class="card-text">This is the Second level of Bharatanatyam and starting point where
+                                you will l
+                                </p>
+                                <a href="..." class="btn btn-center btn-outline-warning mt-4">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="forth py-5">
@@ -170,7 +172,37 @@
                 </button>
                 </div>
             </div>
-        </section>  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        </section>
+         <section class="forth py-5">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h1 class="text-gold fw-bold mb-3">THANK YOU</h1>
+                    <p class="text-gold">
+                    May every step you take in Bharatanatyam reflects grace and devotion
+                    </p>
+                </div>
+                </div>
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-md-6">
+                        <div class="p-4 ">
+                        <h2 class="mb-3">Contact Us</h2>
+                        <p class="mb-2"><strong>Address:</strong> G.E.I.S, MH High School near Talaopali, Thane West</p>
+                        <p class="mb-2"><strong>Phone:</strong> 0123456789</p>
+                        <p class="mb-0"><strong>Email:</strong> nalandabharatnatyam@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="map p-4 ">
+                        <h2 class="mb-3">Visit Us</h2>
+                        
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
