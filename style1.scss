@@ -1,0 +1,97 @@
+$primary-color:goldenrod;
+$myfirst-font:'Playfair Display',serif;
+body{
+    background-color: black;
+    color:$primary-color;
+    font-family: $myfirst-font;
+}
+.navbar {
+    padding: 10px 20px;
+
+    .navbar-brand {
+        font-size: 1.8rem;
+        color: $primary-color;
+        font-family: $myfirst-font;
+        display: flex;
+        align-items: center;
+
+        img {
+            border-radius: 5px;
+        }
+    }
+    .navbar-nav {
+        margin-left: auto;
+        gap: 10px;
+
+        .nav-link {
+            color: $primary-color;
+            font-family: $myfirst-font;
+            font-size: 23px;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .btn-outline-warning {
+        margin-left: 20px;
+        white-space: nowrap;
+    }
+}
+
+.first{
+    background-image:url(./images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    h1{
+        letter-spacing: 2px;
+        font-family: $myfirst-font;
+        font-size: 1.8rem;
+        h2{
+            font-weight: 300;
+            letter-spacing: 2px;
+            font-family: $myfirst-font;
+            font-size: 2.5rem;
+        }
+    }
+}
+.container1{
+    font-style: italic;
+    font-weight: normal;
+    .btn{
+        border-radius: 10%;
+        padding: 10px 15px;
+        margin-right: 2%;
+    }
+}
+h3{
+    font-family: $myfirst-font;
+    font-size: 32px;
+    p{
+        font-family: $myfirst-font;
+        font-size: 16px;
+    }
+}
+.card{
+background-color: black;
+border:1px solid rgb(179, 137, 10);
+    h4{
+        font-family: $myfirst-font;
+        .card-title{
+                color: rgb(179, 137, 10);
+                .card-body{
+                color: white;
+            }
+        }
+    }
+}
+.con{
+    margin-left: 70px;
+    margin-top: 20px;
+    .map{
+        height: 180px;
+    }
+}
